@@ -1,9 +1,12 @@
 /* Style CSS */
 
 *{ margin:0; padding:0; }
-header{ background: #006400; min-height: 90px; }
-footer{ background: #006400; min-height: 90px; color: #111; padding:20px 10px 20px 10px; font-size: 13px; text-align: center }
+header{  background: rgb(0,225,122);
+background: linear-gradient(90deg, rgba(0,225,122,1) 0%, rgba(0,126,68,1) 0%, rgba(0,0,0,1) 85%);  min-height: 90px; }
+footer{ background: rgb(238,174,202);
+background: linear-gradient(270deg, rgba(238,174,202,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%);  padding:20px 10px 20px 10px; font-size: 13px; text-align: center }
 body{ margin:0 !important; }
+
 
 /* IDs */
 #header_top { margin-left:-20px }
